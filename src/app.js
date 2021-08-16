@@ -5,6 +5,10 @@ let currentTeam = "Manchester FC";
 let trophiesWon = 27;
 
 //Write your function here
+let createManager = (managerName,managerAge,currentTeam,trophiesWon) => {
+  let manager = [managerName,managerAge,currentTeam,trophiesWon];
+  return manager;
+} 
 
 // Don't edit the following code
 try {
